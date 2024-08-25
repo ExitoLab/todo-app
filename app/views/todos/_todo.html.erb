@@ -1,0 +1,15 @@
+<div id="<%= dom_id todo %>" class="card mb-3">
+  <div class="card-body">
+    <h5 class="card-title">Todo Details</h5>
+
+    <p class="card-text">
+      <strong>Title:</strong>
+      <span class="ml-2"><%= todo.title %></span>
+    </p>
+
+    <p class="card-text">
+      <strong>Completed:</strong>
+      <span class="ml-2"><%= todo.completed ? 1 : 0 %></span>
+    </p>
+  </div>
+</div>
